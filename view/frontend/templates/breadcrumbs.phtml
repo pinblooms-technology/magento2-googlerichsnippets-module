@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Copyright © PinBlooms Technology Pvt. Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+if (($schemaBreadcrumb = $block->getSchemaBreadcrumb())) {
+    echo '<script type="application/ld+json">' . json_encode($schemaBreadcrumb) . '</script>';
+}

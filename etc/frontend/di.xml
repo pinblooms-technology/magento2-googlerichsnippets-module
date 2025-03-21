@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright © PinBlooms Technology Pvt. Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Review\Block\Product\ReviewRenderer">
+        <plugin name="pinblooms-googlesnippet-product-list-rating-after"
+                type="PinBlooms\GoogleRichSnippets\Plugin\ReviewRendererPlugin" sortOrder="2"/>
+    </type>
+</config>

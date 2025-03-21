@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright © PinBlooms Technology Pvt. Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="PinBlooms_GoogleRichSnippets::GoogleSnippet_Label" title="PinBlooms" module="PinBlooms_GoogleRichSnippets" sortOrder="60" resource="PinBlooms_GoogleRichSnippets::GoogleSnippet_Label"/>
+        <add id="PinBlooms_GoogleRichSnippets::GoogleSnippet" title="Google Rich Snippets" module="PinBlooms_GoogleRichSnippets" sortOrder="10" action="adminhtml/system_config/edit/section/pinblooms_google_snippet/" parent="PinBlooms_GoogleRichSnippets::GoogleSnippet_Label" resource="PinBlooms_GoogleRichSnippets::GoogleSnippet"/>
+    </menu>
+</config>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright © PinBlooms Technology Pvt. Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <pinblooms_google_snippet>
+            <general>
+                <enable>1</enable>
+                <description>1</description>
+                <price>incl_tax</price>
+                <brand>0</brand>
+                <sku>sku</sku>
+                <enable_breadcrumb>1</enable_breadcrumb>
+                <enable_cms_breadcrumb>1</enable_cms_breadcrumb>
+                <enable_product_breadcrumb>1</enable_product_breadcrumb>
+            </general>
+        </pinblooms_google_snippet>
+    </default>
+</config>

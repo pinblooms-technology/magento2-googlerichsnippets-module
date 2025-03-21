@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- /**
+ * Copyright © PinBlooms Technology Pvt. Ltd. All rights reserved.
+ * See COPYING.txt for license details.
+ */ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block class="PinBlooms\GoogleRichSnippets\Block\GoogleSnippet" name="pinblooms.googlesnippet" template="PinBlooms_GoogleRichSnippets::meta_head.phtml" ifconfig="pinblooms_google_snippet/general/enable" />
+            <block ifconfig="pinblooms_google_snippet/general/enable" class="PinBlooms\GoogleRichSnippets\Block\GoogleSnippet" name="pinblooms.googlesnippetbreadcrumbs" template="PinBlooms_GoogleRichSnippets::breadcrumbs.phtml" />
+        </referenceBlock>
+    </body>
+</page>
